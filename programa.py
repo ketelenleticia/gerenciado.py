@@ -5,7 +5,7 @@ alunos = []
 
 
 def menu():
-    print("\n=== GERENCIADOR DE NOTAS ===")
+    print(" GERENCIADOR DE NOTAS ")
     print("1 - Cadastrar aluno e notas")
     print("2 - Exibir relatório")
     print("0 - Sair")
@@ -16,7 +16,7 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == '0':
-        print("\nEncerrando o programa... Até logo! ")
+        print("nEncerrando o programa... Até logo! ")
         break
 
     elif opcao == '1':
@@ -45,7 +45,7 @@ while True:
             "Situação": situacao
         })
 
-        print(f"\nAluno {nome} cadastrado com sucesso!")
+        print(f"nAluno {nome} cadastrado com sucesso!")
 
     elif opcao == '2':
         if not alunos:
